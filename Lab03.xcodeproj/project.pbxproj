@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E14CD201D02486000A22A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14CD1F1D02486000A22A3F /* main.m */; };
+		8E14CD231D02486000A22A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14CD221D02486000A22A3F /* AppDelegate.m */; };
+		8E14CD261D02486000A22A3F /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14CD251D02486000A22A3F /* Start.m */; };
+		8E14CD291D02486000A22A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E14CD271D02486000A22A3F /* Main.storyboard */; };
+		8E14CD2C1D02486000A22A3F /* Lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E14CD2A1D02486000A22A3F /* Lab03.xcdatamodeld */; };
+		8E14CD2E1D02486000A22A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E14CD2D1D02486000A22A3F /* Assets.xcassets */; };
+		8E14CD311D02486000A22A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E14CD2F1D02486000A22A3F /* LaunchScreen.storyboard */; };
+		8EEDE80D1D0330EB0055D22E /* Brann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE7FF1D0330EB0055D22E /* Brann.jpg */; };
+		8EEDE80E1D0330EB0055D22E /* gameof-thrones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8001D0330EB0055D22E /* gameof-thrones.jpg */; };
+		8EEDE80F1D0330EB0055D22E /* Hodor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8011D0330EB0055D22E /* Hodor.jpg */; };
+		8EEDE8101D0330EB0055D22E /* Jofrey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8021D0330EB0055D22E /* Jofrey.jpg */; };
+		8EEDE8111D0330EB0055D22E /* JohnSnow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8031D0330EB0055D22E /* JohnSnow.jpg */; };
+		8EEDE8121D0330EB0055D22E /* khaleesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8041D0330EB0055D22E /* khaleesi.jpg */; };
+		8EEDE8131D0330EB0055D22E /* Margaery-Tyrell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8051D0330EB0055D22E /* Margaery-Tyrell.jpg */; };
+		8EEDE8141D0330EB0055D22E /* Ned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8061D0330EB0055D22E /* Ned.jpg */; };
+		8EEDE8151D0330EB0055D22E /* Question.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8071D0330EB0055D22E /* Question.jpeg */; };
+		8EEDE8161D0330EB0055D22E /* Robb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8081D0330EB0055D22E /* Robb.jpg */; };
+		8EEDE8171D0330EB0055D22E /* Sansa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE8091D0330EB0055D22E /* Sansa.png */; };
+		8EEDE8181D0330EB0055D22E /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE80A1D0330EB0055D22E /* tick.png */; };
+		8EEDE8191D0330EB0055D22E /* Tyrion.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE80B1D0330EB0055D22E /* Tyrion.png */; };
+		8EEDE81A1D0330EB0055D22E /* Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE80C1D0330EB0055D22E /* Wrong.png */; };
+		8EEDE81D1D0333DF0055D22E /* houses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE81B1D0333DF0055D22E /* houses.jpg */; };
+		8EEDE81E1D0333DF0055D22E /* IronThrone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE81C1D0333DF0055D22E /* IronThrone.jpg */; };
+		8EEDE8201D0333E80055D22E /* Loser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE81F1D0333E80055D22E /* Loser.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E14CD1B1D02486000A22A3F /* Lab03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E14CD1F1D02486000A22A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E14CD211D02486000A22A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E14CD221D02486000A22A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E14CD241D02486000A22A3F /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		8E14CD251D02486000A22A3F /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		8E14CD281D02486000A22A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E14CD2B1D02486000A22A3F /* Lab03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab03.xcdatamodel; sourceTree = "<group>"; };
+		8E14CD2D1D02486000A22A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E14CD301D02486000A22A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E14CD321D02486000A22A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEDE7FF1D0330EB0055D22E /* Brann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brann.jpg; sourceTree = "<group>"; };
+		8EEDE8001D0330EB0055D22E /* gameof-thrones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gameof-thrones.jpg"; sourceTree = "<group>"; };
+		8EEDE8011D0330EB0055D22E /* Hodor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hodor.jpg; sourceTree = "<group>"; };
+		8EEDE8021D0330EB0055D22E /* Jofrey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jofrey.jpg; sourceTree = "<group>"; };
+		8EEDE8031D0330EB0055D22E /* JohnSnow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohnSnow.jpg; sourceTree = "<group>"; };
+		8EEDE8041D0330EB0055D22E /* khaleesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khaleesi.jpg; sourceTree = "<group>"; };
+		8EEDE8051D0330EB0055D22E /* Margaery-Tyrell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Margaery-Tyrell.jpg"; sourceTree = "<group>"; };
+		8EEDE8061D0330EB0055D22E /* Ned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ned.jpg; sourceTree = "<group>"; };
+		8EEDE8071D0330EB0055D22E /* Question.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Question.jpeg; sourceTree = "<group>"; };
+		8EEDE8081D0330EB0055D22E /* Robb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Robb.jpg; sourceTree = "<group>"; };
+		8EEDE8091D0330EB0055D22E /* Sansa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sansa.png; sourceTree = "<group>"; };
+		8EEDE80A1D0330EB0055D22E /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		8EEDE80B1D0330EB0055D22E /* Tyrion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tyrion.png; sourceTree = "<group>"; };
+		8EEDE80C1D0330EB0055D22E /* Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrong.png; sourceTree = "<group>"; };
+		8EEDE81B1D0333DF0055D22E /* houses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houses.jpg; sourceTree = "<group>"; };
+		8EEDE81C1D0333DF0055D22E /* IronThrone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IronThrone.jpg; sourceTree = "<group>"; };
+		8EEDE81F1D0333E80055D22E /* Loser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loser.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E14CD181D02486000A22A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E14CD121D02486000A22A3F = {
+			isa = PBXGroup;
+			children = (
+				8E14CD1D1D02486000A22A3F /* Lab03 */,
+				8E14CD1C1D02486000A22A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E14CD1C1D02486000A22A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E14CD1B1D02486000A22A3F /* Lab03.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E14CD1D1D02486000A22A3F /* Lab03 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDE7FE1D0330EB0055D22E /* Img */,
+				8E14CD391D024C5D00A22A3F /* Controllers */,
+				8E14CD381D024C5300A22A3F /* Main */,
+				8E14CD271D02486000A22A3F /* Main.storyboard */,
+				8E14CD2D1D02486000A22A3F /* Assets.xcassets */,
+				8E14CD2F1D02486000A22A3F /* LaunchScreen.storyboard */,
+				8E14CD321D02486000A22A3F /* Info.plist */,
+				8E14CD2A1D02486000A22A3F /* Lab03.xcdatamodeld */,
+				8E14CD1E1D02486000A22A3F /* Supporting Files */,
+			);
+			path = Lab03;
+			sourceTree = "<group>";
+		};
+		8E14CD1E1D02486000A22A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E14CD1F1D02486000A22A3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E14CD381D024C5300A22A3F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E14CD211D02486000A22A3F /* AppDelegate.h */,
+				8E14CD221D02486000A22A3F /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8E14CD391D024C5D00A22A3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E14CD241D02486000A22A3F /* Start.h */,
+				8E14CD251D02486000A22A3F /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8EEDE7FE1D0330EB0055D22E /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDE81F1D0333E80055D22E /* Loser.jpg */,
+				8EEDE81B1D0333DF0055D22E /* houses.jpg */,
+				8EEDE81C1D0333DF0055D22E /* IronThrone.jpg */,
+				8EEDE7FF1D0330EB0055D22E /* Brann.jpg */,
+				8EEDE8001D0330EB0055D22E /* gameof-thrones.jpg */,
+				8EEDE8011D0330EB0055D22E /* Hodor.jpg */,
+				8EEDE8021D0330EB0055D22E /* Jofrey.jpg */,
+				8EEDE8031D0330EB0055D22E /* JohnSnow.jpg */,
+				8EEDE8041D0330EB0055D22E /* khaleesi.jpg */,
+				8EEDE8051D0330EB0055D22E /* Margaery-Tyrell.jpg */,
+				8EEDE8061D0330EB0055D22E /* Ned.jpg */,
+				8EEDE8071D0330EB0055D22E /* Question.jpeg */,
+				8EEDE8081D0330EB0055D22E /* Robb.jpg */,
+				8EEDE8091D0330EB0055D22E /* Sansa.png */,
+				8EEDE80A1D0330EB0055D22E /* tick.png */,
+				8EEDE80B1D0330EB0055D22E /* Tyrion.png */,
+				8EEDE80C1D0330EB0055D22E /* Wrong.png */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E14CD1A1D02486000A22A3F /* Lab03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E14CD351D02486000A22A3F /* Build configuration list for PBXNativeTarget "Lab03" */;
+			buildPhases = (
+				8E14CD171D02486000A22A3F /* Sources */,
+				8E14CD181D02486000A22A3F /* Frameworks */,
+				8E14CD191D02486000A22A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab03;
+			productName = Lab03;
+			productReference = 8E14CD1B1D02486000A22A3F /* Lab03.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E14CD131D02486000A22A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Philbert;
+				TargetAttributes = {
+					8E14CD1A1D02486000A22A3F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E14CD161D02486000A22A3F /* Build configuration list for PBXProject "Lab03" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E14CD121D02486000A22A3F;
+			productRefGroup = 8E14CD1C1D02486000A22A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E14CD1A1D02486000A22A3F /* Lab03 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E14CD191D02486000A22A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEDE8141D0330EB0055D22E /* Ned.jpg in Resources */,
+				8EEDE8101D0330EB0055D22E /* Jofrey.jpg in Resources */,
+				8EEDE8191D0330EB0055D22E /* Tyrion.png in Resources */,
+				8EEDE81E1D0333DF0055D22E /* IronThrone.jpg in Resources */,
+				8EEDE8171D0330EB0055D22E /* Sansa.png in Resources */,
+				8EEDE8201D0333E80055D22E /* Loser.jpg in Resources */,
+				8EEDE81D1D0333DF0055D22E /* houses.jpg in Resources */,
+				8EEDE8111D0330EB0055D22E /* JohnSnow.jpg in Resources */,
+				8E14CD311D02486000A22A3F /* LaunchScreen.storyboard in Resources */,
+				8EEDE80D1D0330EB0055D22E /* Brann.jpg in Resources */,
+				8EEDE80F1D0330EB0055D22E /* Hodor.jpg in Resources */,
+				8EEDE80E1D0330EB0055D22E /* gameof-thrones.jpg in Resources */,
+				8EEDE8121D0330EB0055D22E /* khaleesi.jpg in Resources */,
+				8E14CD2E1D02486000A22A3F /* Assets.xcassets in Resources */,
+				8EEDE81A1D0330EB0055D22E /* Wrong.png in Resources */,
+				8EEDE8151D0330EB0055D22E /* Question.jpeg in Resources */,
+				8EEDE8181D0330EB0055D22E /* tick.png in Resources */,
+				8E14CD291D02486000A22A3F /* Main.storyboard in Resources */,
+				8EEDE8161D0330EB0055D22E /* Robb.jpg in Resources */,
+				8EEDE8131D0330EB0055D22E /* Margaery-Tyrell.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E14CD171D02486000A22A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E14CD2C1D02486000A22A3F /* Lab03.xcdatamodeld in Sources */,
+				8E14CD261D02486000A22A3F /* Start.m in Sources */,
+				8E14CD231D02486000A22A3F /* AppDelegate.m in Sources */,
+				8E14CD201D02486000A22A3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E14CD271D02486000A22A3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E14CD281D02486000A22A3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E14CD2F1D02486000A22A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E14CD301D02486000A22A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E14CD331D02486000A22A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E14CD341D02486000A22A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E14CD361D02486000A22A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lab03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.Lab03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E14CD371D02486000A22A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lab03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UAG.Lab03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E14CD161D02486000A22A3F /* Build configuration list for PBXProject "Lab03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E14CD331D02486000A22A3F /* Debug */,
+				8E14CD341D02486000A22A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E14CD351D02486000A22A3F /* Build configuration list for PBXNativeTarget "Lab03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E14CD361D02486000A22A3F /* Debug */,
+				8E14CD371D02486000A22A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E14CD2A1D02486000A22A3F /* Lab03.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E14CD2B1D02486000A22A3F /* Lab03.xcdatamodel */,
+			);
+			currentVersion = 8E14CD2B1D02486000A22A3F /* Lab03.xcdatamodel */;
+			path = Lab03.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E14CD131D02486000A22A3F /* Project object */;
+}
