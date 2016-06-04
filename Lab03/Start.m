@@ -26,13 +26,23 @@
 
     -(void)viewDidAppear:(BOOL)animated {
         [self.Scroller1 setScrollEnabled:YES];
-        [self.Scroller1 setContentSize:CGSizeMake(0, 1000)];
+        [self.Scroller1 setContentSize:CGSizeMake(0, 10000)];
 }
 
     -(void)viewDidLayoutSubviews {
         [super viewDidLayoutSubviews];
-        [self.Scroller1 setContentSize:CGSizeMake(0, 1000)];
+        [self.Scroller1 setContentSize:CGSizeMake(0, 10000)];
 }
 
 
+- (IBAction)Button1:(id)sender {
+    //self.LblTitle.text = @"Is Alive!";
+    self.ImgQuestion.image = [UIImage imageNamed: @"tick.png"];
+}
+
+- (IBAction)Button2:(id)sender {
+    self.ImgQuestion.image = [UIImage imageNamed: @"Wrong.png"];
+}
+
 @end
+

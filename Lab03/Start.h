@@ -11,6 +11,12 @@
 @interface Start : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIScrollView *Scroller1;
+@property (strong, nonatomic) IBOutlet UIImageView *ImgQuestion;
+
+
+- (IBAction)Button1:(id)sender;
+- (IBAction)Button2:(id)sender;
+
 
 @end
 

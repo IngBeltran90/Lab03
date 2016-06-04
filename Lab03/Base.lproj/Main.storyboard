@@ -24,18 +24,89 @@
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E13-x3-QPd">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIg-eV-fAy">
-                                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gameof-thrones.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="o8h-gq-2ud">
+                                                <rect key="frame" x="8" y="31" width="359" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="Lan-63-DTJ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Ned.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-fw-LCO">
+                                                <rect key="frame" x="79" y="196" width="216" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="gOd-ye-2aw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="PZh-2X-lrI">
+                                                <rect key="frame" x="158" y="354" width="59" height="53"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="53" id="Cv0-KY-oaC"/>
+                                                    <constraint firstAttribute="width" constant="59" id="Z4d-sf-GHD"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BG2-eU-6mT">
+                                                <rect key="frame" x="79" y="414" width="46" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Alive"/>
+                                                <connections>
+                                                    <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OUc-Gg-RnE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwM-sF-pOg">
+                                                <rect key="frame" x="250" y="414" width="45" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="31" id="J4E-vC-oGF"/>
+                                                    <constraint firstAttribute="width" constant="45" id="QvQ-5y-38j"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Dead"/>
+                                                <connections>
+                                                    <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wKc-4k-IaE"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Make your decision!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qL-yw-Nw4">
+                                                <rect key="frame" x="91" y="167" width="193" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="4LZ-Eq-I3a"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="wIg-eV-fAy" firstAttribute="centerY" secondItem="E13-x3-QPd" secondAttribute="centerY" id="0hM-4v-P1O"/>
-                                            <constraint firstItem="wIg-eV-fAy" firstAttribute="centerX" secondItem="E13-x3-QPd" secondAttribute="centerX" id="8Kr-kd-Ro6"/>
-                                            <constraint firstAttribute="bottom" secondItem="wIg-eV-fAy" secondAttribute="bottom" constant="323" id="K1L-ut-CE1"/>
-                                            <constraint firstAttribute="trailing" secondItem="wIg-eV-fAy" secondAttribute="trailing" constant="167" id="hGv-Mo-HB7"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="27B-Ak-qnS"/>
+                                            <constraint firstItem="0qL-yw-Nw4" firstAttribute="centerX" secondItem="o8h-gq-2ud" secondAttribute="centerX" id="32k-V5-ZfQ"/>
+                                            <constraint firstItem="o8h-gq-2ud" firstAttribute="trailing" secondItem="E13-x3-QPd" secondAttribute="trailingMargin" id="3x6-KO-Fkk"/>
+                                            <constraint firstAttribute="trailing" secondItem="0qL-yw-Nw4" secondAttribute="trailing" constant="91" id="52l-GU-MtB"/>
+                                            <constraint firstAttribute="trailing" secondItem="dwM-sF-pOg" secondAttribute="trailing" constant="111" id="9dg-RE-o1u"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="Acc-2F-2GQ"/>
+                                            <constraint firstItem="PZh-2X-lrI" firstAttribute="top" secondItem="LWI-fw-LCO" secondAttribute="bottom" constant="8" symbolic="YES" id="BCq-4G-z7V"/>
+                                            <constraint firstItem="0qL-yw-Nw4" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="91" id="Bd8-2a-Ffe"/>
+                                            <constraint firstAttribute="trailing" secondItem="dwM-sF-pOg" secondAttribute="trailing" constant="80" id="DCM-P7-i9N"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="FKf-98-BkZ"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="centerY" secondItem="BG2-eU-6mT" secondAttribute="centerY" id="IBj-gr-BnQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="dwM-sF-pOg" secondAttribute="trailing" constant="80" id="Ihe-Nm-zBw"/>
+                                            <constraint firstItem="BG2-eU-6mT" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="79" id="JK2-ns-kTm"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="K1w-gU-QN0"/>
+                                            <constraint firstItem="BG2-eU-6mT" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="79" id="Psw-IP-A5x"/>
+                                            <constraint firstItem="BG2-eU-6mT" firstAttribute="baseline" secondItem="dwM-sF-pOg" secondAttribute="baseline" constant="-1" id="S76-by-ka6"/>
+                                            <constraint firstItem="PZh-2X-lrI" firstAttribute="centerX" secondItem="LWI-fw-LCO" secondAttribute="centerX" id="SM2-hB-D4f"/>
+                                            <constraint firstItem="0qL-yw-Nw4" firstAttribute="top" secondItem="o8h-gq-2ud" secondAttribute="bottom" constant="8" symbolic="YES" id="TUO-Gu-fH7"/>
+                                            <constraint firstItem="o8h-gq-2ud" firstAttribute="centerX" secondItem="E13-x3-QPd" secondAttribute="centerX" id="V2z-Al-lOQ"/>
+                                            <constraint firstItem="LWI-fw-LCO" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="79" id="WRW-VV-nVL"/>
+                                            <constraint firstItem="0qL-yw-Nw4" firstAttribute="centerX" secondItem="LWI-fw-LCO" secondAttribute="centerX" id="X9R-vp-cVR"/>
+                                            <constraint firstItem="LWI-fw-LCO" firstAttribute="top" secondItem="0qL-yw-Nw4" secondAttribute="bottom" constant="8" symbolic="YES" id="Yfy-Ni-PI5"/>
+                                            <constraint firstItem="BG2-eU-6mT" firstAttribute="top" secondItem="LWI-fw-LCO" secondAttribute="bottom" constant="68" id="ZCF-jg-1qa"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="top" secondItem="BG2-eU-6mT" secondAttribute="top" id="c1O-vF-t4x"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="cos-yH-JxC"/>
+                                            <constraint firstItem="0qL-yw-Nw4" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="91" id="i1n-Ta-QMu"/>
+                                            <constraint firstAttribute="trailing" secondItem="dwM-sF-pOg" secondAttribute="trailing" constant="99" id="i34-U4-n1y"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="l9F-pS-qNN"/>
+                                            <constraint firstAttribute="bottom" secondItem="o8h-gq-2ud" secondAttribute="bottom" constant="508" id="tA9-Mu-LPa"/>
+                                            <constraint firstItem="dwM-sF-pOg" firstAttribute="leading" secondItem="BG2-eU-6mT" secondAttribute="trailing" constant="125" id="ubB-ZD-Ji7"/>
+                                            <constraint firstItem="o8h-gq-2ud" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leadingMargin" id="vwm-sb-eVm"/>
+                                            <constraint firstItem="o8h-gq-2ud" firstAttribute="top" secondItem="E13-x3-QPd" secondAttribute="top" constant="31" id="wAK-mJ-diJ"/>
+                                            <constraint firstItem="BG2-eU-6mT" firstAttribute="leading" secondItem="E13-x3-QPd" secondAttribute="leading" constant="79" id="wt2-FE-aof"/>
                                         </constraints>
                                     </scrollView>
                                 </subviews>
@@ -58,6 +129,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="ImgQuestion" destination="PZh-2X-lrI" id="MHk-nl-bgn"/>
                         <outlet property="Scroller1" destination="E13-x3-QPd" id="seb-Z7-PA1"/>
                     </connections>
                 </viewController>
@@ -66,4 +138,9 @@
             <point key="canvasLocation" x="287.5" y="289.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ned.jpg" width="1237" height="1085"/>
+        <image name="Question.jpeg" width="626" height="626"/>
+        <image name="gameof-thrones.jpg" width="725" height="290"/>
+    </resources>
 </document>
