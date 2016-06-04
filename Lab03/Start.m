@@ -8,6 +8,8 @@
 
 #import "Start.h"
 
+unsigned char Score = 0;
+
 @interface Start ()
 
 @end
@@ -38,11 +40,11 @@
 - (IBAction)Button1:(id)sender {
     //self.LblTitle.text = @"Is Alive!";
     self.ImgQuestion.image = [UIImage imageNamed: @"Wrong.png"];
-    self.editButtonItem.enabled = FALSE;
 }
 
 - (IBAction)Button2:(id)sender {
     self.ImgQuestion.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button3:(id)sender {
@@ -52,56 +54,98 @@
 
 - (IBAction)Button4:(id)sender {
     self.ImgQuestion2.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 
 }
 
 - (IBAction)Button5:(id)sender {
+    self.ImgQuestion3.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button6:(id)sender {
+    self.ImgQuestion3.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button7:(id)sender {
+    self.ImgQuestion4.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button8:(id)sender {
+    self.ImgQuestion4.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button9:(id)sender {
+    self.ImgQuestion5.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button10:(id)sender {
+    self.ImgQuestion5.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button11:(id)sender {
+    self.ImgQuestion6.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button12:(id)sender {
+    self.ImgQuestion6.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button13:(id)sender {
+    self.ImgQuestion7.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
+
 }
 
 - (IBAction)Button14:(id)sender {
+    self.ImgQuestion7.image = [UIImage imageNamed: @"Wrong.png"];
+
 }
 
 - (IBAction)Button15:(id)sender {
+    self.ImgQuestion8.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button16:(id)sender {
+    self.ImgQuestion8.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button17:(id)sender {
+    self.ImgQuestion9.image = [UIImage imageNamed: @"Wrong.png"];
 }
 
 - (IBAction)Button18:(id)sender {
+    self.ImgQuestion9.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button19:(id)sender {
+    self.ImgQuestion10.image = [UIImage imageNamed: @"tick.png"];
+    Score++;
 }
 
 - (IBAction)Button20:(id)sender {
+    self.ImgQuestion10.image = [UIImage imageNamed: @"Wrong.png"];
+    
+    if(Score==10)
+    {
+        
+    }
+    else if(Score>=5 && Score<=10)
+    {
+        
+    }
+    else if(Score<=5)
+    {
+        
+    }
 }
+
+//><
 
 @end
 
